@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services' // Google Services plugin for Firebase
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.esssentioo"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "essentio.app" // Ensure it matches google-services.json
+        minSdk = 24 // Updated minSdkVersion to 24 to resolve compatibility with amplify_auth_cognito
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        multiDexEnabled true // Enable multidex for large apps
+    }
+
+    buildTypes {
+        release {
+            // Ensure signing configuration is set for release builds
+            signingConfig = signingConfigs.debug
+            minifyEnabled true // Enable ProGuard to shrink APK
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dependencies {
+        implementation platform('com.google.firebase:firebase-bom:32.1.1') // Add Firebase BOM
+        implementation 'com.google.firebase:firebase-analytics'
+        implementation 'androidx.multidex:multidex:2.0.1' // Add MultiDex support
+    }
+}
+
+flutter {
+    source = "../.."
+}
