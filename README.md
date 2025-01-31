@@ -1,6 +1,7 @@
 # esssentioo
 
-A new Flutter project.
+Working on and comming sooon..
+
 
 ## Getting Started
 
