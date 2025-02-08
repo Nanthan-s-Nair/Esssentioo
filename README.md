@@ -1,58 +1,57 @@
-Essentio - Your Essential Needs in One App
+# **Essentio - Your Essential Needs in One App**
 
+## 🚀 Overview
+**Essentio** is a **Flutter-based mobile application** designed to streamline everyday essential purchases, including **groceries, medicines, home needs, and personal care products**. The app provides a **user-friendly interface** with categorized items, quantity variations, and a seamless shopping experience.
 
+---
 
-🚀 Overview
+## ✨ Features
+- 📦 **Categorized Essentials**: Groceries, medicines, home needs, and personal care items.
+- 🔍 **Smart Search**: Quickly find items with intelligent suggestions.
+- 📏 **Flexible Quantity Formats**: Supports units like kg, mg, liters, and custom measurements.
+- 🛒 **Cart & Checkout**: Add items to your cart and place orders effortlessly.
+- 🌙 **Dark Mode Support**: Enjoy a sleek UI with dark mode.
+- 📊 **Order Tracking**: Monitor your purchases in real-time.
 
-Essentio is a Flutter-based mobile application designed to streamline everyday essential purchases, including groceries, medicines, home needs, and personal care products. The app provides a user-friendly interface with categorized items, quantity variations, and a seamless shopping experience.
+---
 
-✨ Features
+## 🏗️ Tech Stack
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase / AWS Services
+- **Database**: Firestore
+- **State Management**: Provider / Riverpod
+- **API Services**: RESTful APIs
 
-📦 Categorized Essentials: Groceries, medicines, home needs, and personal care items.
+---
 
-🔍 Smart Search: Quickly find items with intelligent suggestions.
+## 📷 Screenshots
+(Add screenshots here)
 
-📏 Flexible Quantity Formats: Supports units like kg, mg, liters, and custom measurements.
+---
 
-🛒 Cart & Checkout: Add items to your cart and place orders effortlessly.
-
-🌙 Dark Mode Support: Enjoy a sleek UI with dark mode.
-
-📊 Order Tracking: Monitor your purchases in real-time.
-
-🏗️ Tech Stack
-
-Frontend: Flutter (Dart)
-
-Backend: Firebase / AWS Services
-
-Database: Firestore
-
-State Management: Provider / Riverpod
-
-API Services: RESTful APIs
-
-📷 Screenshots
-
-
-
-🔧 Installation
-
-Clone the repository:
-
+## 🔧 Installation
+### **1️⃣ Clone the Repository**
+```sh
 git clone https://github.com/yourusername/essentio.git
+```
 
-Navigate to the project directory:
-
+### **2️⃣ Navigate to the Project Directory**
+```sh
 cd essentio
+```
 
-Install dependencies:
-
+### **3️⃣ Install Dependencies**
+```sh
 flutter pub get
+```
 
-Run the app:
-
+### **4️⃣ Run the App**
+```sh
 flutter run
+```
 
+---
+
+## ⭐ Support
 Give a ⭐ if you like this project!
 
