@@ -28,9 +28,9 @@
 (Add screenshots here)
 <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
         <img src="Screenshots/1.jpeg" alt="Screenshot 1" style="width: 19%;">
-        <img src="Screenshots/2.jpeg" alt="Screenshot 2" style="width: 19%;">
-        <img src="Screenshots/3.jpeg" alt="Screenshot 3" style="width: 19%;">
-        <img src="Screenshots/4.jpeg" alt="Screenshot 4" style="width: 19%;">
+        <img src="Screenshots/2.jpeg" alt="Screenshot 2" style="width: 20%;">
+        <img src="Screenshots/3.jpeg" alt="Screenshot 3" style="width: 25%;">
+        <img src="Screenshots/4.jpeg" alt="Screenshot 4" style="width: 25%;">
 </div>
 <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
         <img src="Screenshots/5.jpeg" alt="Screenshot 1" style="width: 19%;">
